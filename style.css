@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #053a37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.weatherAppContainer {
+    color: whitesmoke;
+    text-align: left;
+    border: 2px dotted gold;
+    margin: 2rem;
+    padding: 20px;
+    box-shadow: 0px 8px 12px 0px rgb(255, 212, 0);
+}
+
+.temp p {
+    font-size: 35px;
+}
+
+.location{
+    margin: 5px;
+    margin-left: 0px;
+}
+.location .city {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+.location .dateTime{
+    font-size:25px;
+}
+
+.condition{
+
+}
+
+.condition .icon{
+
+}
+
+.condition .p2{
+    font-size: 27px;
+}
+
+.searchBar{
+    width: 100px;
+    height: 40px;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: transparent;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 8px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.searchButton{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+
+}
